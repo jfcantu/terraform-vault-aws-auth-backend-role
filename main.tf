@@ -14,4 +14,5 @@ resource "vault_aws_auth_backend_role" "role" {
     resolve_aws_unique_ids = var.resolve_aws_unique_ids
     allow_instance_migration = var.allow_instance_migration
     disallow_reauthentication = var.disallow_reauthentication
+    token_policies = var.token_policies
 }

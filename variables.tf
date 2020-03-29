@@ -70,3 +70,8 @@ variable "disallow_reauthentication" {
     type = bool
     default = null
 }
+
+variable "token_policies" {
+    type = list(string)
+    default = null
+}
