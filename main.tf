@@ -1,4 +1,4 @@
-resource "vault_aws_secret_backend_role" "role" {
+resource "vault_aws_auth_backend_role" "role" {
     backend = var.backend
     role = var.role
     auth_type = var.auth_type
