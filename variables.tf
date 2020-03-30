@@ -75,3 +75,13 @@ variable "token_policies" {
     type = list(string)
     default = null
 }
+
+variable "token_ttl" {
+    type = number
+    default = null
+}
+
+variable "token_max_ttl" {
+    type = number
+    default = null
+}

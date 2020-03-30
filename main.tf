@@ -15,4 +15,6 @@ resource "vault_aws_auth_backend_role" "role" {
     allow_instance_migration = var.allow_instance_migration
     disallow_reauthentication = var.disallow_reauthentication
     token_policies = var.token_policies
+    token_ttl = var.token_ttl
+    token_max_ttl = var.token_max_ttl
 }
